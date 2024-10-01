@@ -1,0 +1,30 @@
+[
+    {
+        "img": "/image-1.webp",
+        "title": "Shirt",
+        "desc": "Pure Garment Cotton Shirt",
+        "rating": "4",
+        "price": "45.00"
+    },
+    {
+        "img": "/image-2.webp",
+        "title": "Sports",
+        "desc": "Tracking & Running Shoes",
+        "rating": "3",
+        "price": "58.00"
+    },
+    {
+        "img": "/image-3.webp",
+        "title": "Watches",
+        "desc": "Smart Watch",
+        "rating": "4",
+        "price": "100.00"
+    },
+    {
+        "img": "/image-4.jpg",
+        "title": "Glasses",
+        "desc": "Sunglasses - Black",
+        "rating": "4",
+        "price": "30.00"
+    }
+]
