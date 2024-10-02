@@ -23,9 +23,9 @@ const NewProducts = () => {
           throw new Error("Failed to fetch products");
         }
 
-        const data = await response.json();
+        const data: Product[] = await response.json();
 
-        const formattedData: Product[] = data.map((item: any) => ({
+        const formattedData: Product[] = data.map((item: Product) => ({
           img: item.img,
           title: item.title,
           desc: item.desc,
