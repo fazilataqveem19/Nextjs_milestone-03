@@ -80,14 +80,12 @@ const ProductCard: React.FC<PropsType> = ({ img, title, desc, rating, price }) =
         <div>{generateRating(rating)}</div>
 
         <div className="font-bold flex gap-4">
-          {/* Ensure price is a valid number and provide fallback */}
           ${typeof price === "number" ? price.toFixed(2) : "0.00"}
           <del className="text-gray-500 font-normal">
             ${typeof price === "number" ? (price + 50).toFixed(2) : "0.00"}
           </del>
         </div>
 
-        {/* Add to Cart button styled like the "Shop Now" button */}
         <div className="bg-accent text-white text-[14px] md:text-[16px] p-2 px-4 rounded-lg inline-block cursor-pointer hover:bg-blackish mt-2">
           Add to Cart
         </div>
